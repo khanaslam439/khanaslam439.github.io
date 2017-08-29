@@ -2,16 +2,27 @@
 <head>
 	<style>
 	.address{
-	width:100%;
-	
+	width:100%;	
+	text-align:justify;
+	height:450px;
+	background:white;
+	opacity:.5;
+	padding-top:20px;
+	padding:10px 50px;
+}
+
+	.address1{
+	width:100%;	
 	text-align:center;
 	height:490px;
-	background:white;
-	opacity:.3;
+	background:transparent;
+	opacity:0.9;
 	padding-top:40px;
 	padding:10px 10px;
-
+	border:none;
 	}
+
+
 	.address h1{
 	color:darkblue;
 	}
@@ -83,6 +94,7 @@ margin-top:-750px;
 	}
 	
 	
+
 	ul li{
 	font-size:21px;
 	margin:20px 20px;		
@@ -102,16 +114,16 @@ margin-top:-750px;
 	border:none;
 	}
 	#how-it-work{
-
-	background:black;
-	color:white;
+	background:antiquewhite;
+	color:orange;
 	}
 
 	#how-it-work table tr td h3{
 	padding:0px 100px;
 	font-weight:normal;
 	font-family:Cambria;
-	color:white;
+	color:orange;
+	
 	}
 
 #how-it-work table tr td img{
@@ -130,14 +142,14 @@ margin-top:-750px;
 	</style>
 </head>
 	<BODY>
-		<table bgcolor="red" width="100%" cellpadding="10">
+		<table bgcolor="slategrey" width="100%" cellpadding="10">
 		<tr >
 			<td >
 				<h1 style="font-family:'Harlow Solid'; font-weight:normal;color:white;">Offee</h1>
 			</td>
 			<td  >
 				<ul align="right">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Home</a></li>
 					<li><a href="#how-it-work">How It Works</a></li>
 					<li><a href="#value">Values</a></li>
 					<li><a href="#contact">Contact Us</a></li>
@@ -198,30 +210,31 @@ margin-top:-750px;
 		</DIV>
 <br>
 		<DIV id="contact">
-		<img src="image/back.jpg" width="100%" >
+		<img src="image/bground.jpg" width="100%" style="filter:blur(2px);">
 		<table>
 			<caption style="text-align:center;margin-left:25px;font-size:40px;color:white;font-family:'Lucida Calligraphy';padding-bottom:10px;">Contact With Us Here </caption>
 		<tr>
-			<td>				
+			<td>	<div class="address1">			
 				<input type="text" name="full-name" placeholder="Enter Your Full Name"> 		
 				<input type="email" name="email" placeholder="Enter You Email address">		
 				<input type="number" name="ph-no" placeholder="Enter Contact Number">		
 				<textarea name="message" placeholder="Enter your feedback . . . . ." style="height:150px"></textarea>
 				<button type="submit" style="background:lawngreen;color:black;border-radius:0px;font-family:'Century Gothic'; ">Send</button>		
 				<button type="submit" style="background:gray;font-family:'Century Gothic';border-radius:0px; ">Cancel</button>
+				</div>
 			</td>
 
 			<td>
 				<div class="address">
 					<h1>Offee Perfection Network Ltd.</h1> <BR><br>					
-					<p>Address : Ground Floor, B-11, </p>
+					<p style="text-decoration:underline;">Address:<br><p> Ground Floor, B-11, </p>
 					<p>12 Greenway Plaza ,11th Floor</p>
 					<p>8 Otterymoor Lane Honiton</p>
 					<p>Sec - 61, Noida, U.P INDIA - 201301</p>
 					
 					<p>Email id :INFO@OFFEE.IN</p>
 					<p>Contact No : +91 96645 00593</p></div>
-			</td> 
+			</td>
 		</tr>
 		</table>		
 		</DIV>
