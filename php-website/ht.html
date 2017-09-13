@@ -82,6 +82,9 @@
 				alert('login sucessfully complete !');
 				window.location="https://khanaslam439.github.io/php-project/main.html";
 			}
+			else{
+			alert('enter id or password is not correct !');
+			}
 	}
 	</script>
 <body>
@@ -92,7 +95,7 @@
 		<input type="password" placeholder="Password" id="t2"><br>
 		<br><span><input type="checkbox" checked> Remember Me </span> <a href="main.html" >Forgot password ? </a>
 		<br><br>
-		<input type="submit" value="Submit Details">
+		<input type="submit" value="Submit Details" onclick="checkLog()">
 	</fieldset>
 <div class="wrapper">
 <img src="ba.jpg" width="100%" height="100%">
