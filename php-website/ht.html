@@ -71,12 +71,25 @@
 	}
 
 </style>
+<script>
+	function checkLog()
+	{
+		var a = document.getElementById('t1').value;
+		var b = document.getElementById('t2').value;
+		
+			if(a=='aslam' && b=='khan123')
+			{
+				alert('login sucessfully complete !');
+				window.location="https://khanaslam439.github.io/php-project/main.html";
+			}
+	}
+	</script>
 <body>
 
 	<fieldset>
 		<h1 style="color:orange">CONNECT <b> ME </b></span></h1>
-		<input type="text" placeholder="First Name"><br><br>
-		<input type="password" placeholder="Password"><br>
+		<input type="text" placeholder="First Name" id="t1"><br><br>
+		<input type="password" placeholder="Password" id="t2"><br>
 		<br><span><input type="checkbox" checked> Remember Me </span> <a href="main.html" >Forgot password ? </a>
 		<br><br>
 		<input type="submit" value="Submit Details">
