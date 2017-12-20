@@ -1,115 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-<style>
+<head>
+	<title></title>
+	<style type="text/css">
 	body{
-	margin:0 auto;
-}
-	header{
-	height:160px;
-	width:100%;
-	background:teal;
-}
-   .logo{
-	float:left;	
-	width:relative;
-	height:155px;;
-	
-     }
-	section img:hover{
-	box-shadow:0px 0px 100px black;
-}
-	
-   header nav{
-	float:right;	
-	margin-top:100px;
-}
-nav ul li:hover{
-	display:inline-block;
-	font-weight:normal;
-	padding:5px 16px;
-	border-radius:40px;
-	color:white;
-	background:darkslategrey;
+		background-color:#dcd7d4;
 	}
-	nav ul li a:hover{
-	border-radius:40px;
-	color:white;
-	background:darkslategrey;
-	}
-	
-	nav ul li{
-	float:left;
-	font-weight:normal;
-	font-size:20px;
-	font-family:'Century Gothic';
-	
-	list-style:none;
-	color:aqua;
-	margin-right:30px;
-}
-	section{
-	margin-top:-160px;
-}
-	.logo-pic{
-	position:relative;
-	top:30px;
-}
+		ul li a{
+			font-family:monospace;
+			font-size:20px;
+			color:#444;
+		}
+		
+		.menu-wrap{
+			background-color:#a2e8d6;
+		}
+		div h1{
+			font-family:'Bauhaus 93';
+			border-bottom:1px solid #333;
+		}
 
-.middle{
-	position:relative;
-	top:161px;
-	width:100%;
-	height:450px;
-	background:rgb(0,128,255);
-	opacity:1;
-}
-</style>
-	</head>
+		p{
+			font-family:'High Tower Text';
+			font-size: 18px;
+		}
+		.im img:hover{
+			box-shadow:0px 30px 30px -10px #aaa;
+			transition:box-shadow 2s ease;
+		}
+
+		
+	</style>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <body>
-	<header>
-		<div class="logo">
-		<img src="image/logo.png" width="400px" height="200px" style="margin-left:-130px;margin-top:-30px;">
-		<p style="max-width:200px;position:relative;top:-70px;font-size:24px;">Web Designer</p>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="Web/index.html" style="text-decoration:none;color:aqua;">Home</a></li>
-				<li><a href="helo.html" style="text-decoration:none;color:aqua;">Our Work</li>
-				<li>About</li>
-				<li>Contact Us</li>
-			</ul>
-		</nav>
-	</header>
-	
-		<img src="image/design1.jpg" width="100%" height="580px">	
-<br>
-	<section style="margin-top:-30px;width:100%;height:450px;background:orange;opacity:1.6;">
-			<img src="image/html.jpg" class="logo-pic" style="float:left;width:400px;height:400px;border-radius:5px;"> 
-			<p style="margin-top:45px;margin-right:50px;max-width:600px;text-align:center;float:right;font-size:71px;color:white;font-family:'Century Gothic';">Power of html to create basic layout of webpages</p>		
-	</section>
+			<nav class="navbar menu-wrap">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand"><img src="image/logo.png" width="200"></a>
+					</div>	
 
-	<section class="middle">
-			<div style="position:relative;top:-150px;">
-			<p style="float:left;max-width:55%;text-align:center; font-size:71px;color:white; font-family:'Century Gothic';">Magic of CSS to give some attractive look to webpages</p>
-			<img src="image/css.png" class="logo-pic" style="float:right;margin:-40px 10px;width:40%;height:400px;border-radius:5px;"/> 
+						<ul class="nav navbar-nav navbar-right text-center" style="padding:20px 0px;">
+							<li class="active"><a href="web/index.html">HOME</a></li>
+							<li><a href="helo.html">WORK</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">CONTACT US</a></li>
+						</ul>
+				</div>
+			</nav>
+			<img src="image/design1.jpg" class="img-responsive" width="100%"  style="background-attachment:fixed;margin-top:-20px;max-height:500px"  >
+			<hr>
+			<h1 align="center" style="font-family:Papyrus">*| Basic Building blocks of Front End Development |*</h1>
+			<div class="container" style="padding:50px 0px">
+				<div class="row" style="padding:50px 0px;">
+					<div class="col-sm-6 im text-center">
+						<img src="image/html.png" width="300">
+					</div>
+					<div class="col-sm-6 text-center">
+						<h1>Power of Html</h1>
+						<p>
+							Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.
+						</p>
+					</div>				
+				</div>
+				<hr>
+				<div class="row" style="padding:50px 0px;">
+					<div class="col-sm-6 text-center">
+						<h1>Creativity With CSS</h1>		
+						<p>
+							Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML
+						</p>
+					</div>		
+					
+					<div class="col-sm-6 text-center im">
+						<img src="image/css.png" height="300" >
+					</div>		
+
+				</div>
+				<hr>
+				<div class="row" style="padding:50px 0px;">
+					<div class="col-sm-6 text-center im">
+						<img src="image/java.png" width="300">
+					</div>
+					<div class="col-sm-6 text-center">
+						<h1>Functionality of Javascript</h1>
+						<p>
+							JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.
+						</p>
+					</div>								
+				</div>
+				<hr>
+				<div class="row" style="padding:50px 0px;">
+					<div class="col-sm-6 text-center">
+						<h1>Animation moves with jQuery</h1>		
+						<p>
+							Query is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.
+						</p>
+					</div>		
+					
+					<div class="col-sm-6 text-center im">
+						<img src="image/query.png" width="300">
+					</div>		
+				</div>
 			</div>
-	</section>
 
-	<section style="width:100%;height:450px;background:gray;margin-top:162px;">
-			<img src="image/java.png" style="float:left;width:350px;height:400px;margin:25px 20px;border-radius:5px;"/> 
-			<p style="float:right;color:white;font-size:71px;font-family:'Century Gothic';margin:0px 100px;max-width:500px;text-align:center">JavaScript support the action on you Webpage</p>
-	</section>
-
-	<section style="background:transparent;width:100%;height:450px;margin-top:0px;">
-			<div style="position:relative;top:0px;">
-			<img src="image/query.png" class="logo-pic" style="float:left;margin:-15px 20px;width:50%;height:400px;border-radius:5px;"/> 
-			<p style="margin-top:55px;float:right;max-width:45%;text-align:center; font-size:71px;color:rgba(0,128,255,1); font-family:'Century Gothic';">Put  less code and get functionality more</p>
+			<div class="container-fluid">
+				<footer class="row" style="background-color:#a2e8d6;color:#111;text-align:center;padding:20px 0px;font-family:'sans-serif';">
+					<div class="col-sm-12" >
+						<p >Powered by Ak design  Copyright &copy; 2017 underprocess </p>						
+					</div>
+				</footer>
+				
 			</div>
-	</section>
-
-	<footer style="width:100%;color:white;height:50px;background:rgba(0,50,50,0.9);text-align:center;font-family:'Maiandra GD';">
-		<h3 style="position:relative;top:10px;">Powered by AK web designer and &copy; Copyright is underprocess </h3>
-	</footer>
 </body>
 </html>
