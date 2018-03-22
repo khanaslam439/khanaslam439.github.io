@@ -1,0 +1,29 @@
+body{font-family: Century Gothic;background:#ddd;}
+
+/* formatting of rgb display box  */
+div.display-color{width:100%;background-color:coral;padding:60px 0px;transition:background-color 1s ease;}
+
+/* basic navbar formattings */
+nav{background: #f2f2f2;padding:12px;}
+nav a{color:#666;padding: 14px;position:relative;}
+nav a:hover{text-decoration: none;background:gray;color:white;transition:background 1s ease; }
+
+/* changing property of ative link or game */
+.active{text-decoration: none;background:gray;color:white;}
+nav a:hover .active{background:transparent;color:#666;padding: 14px;position:relative;transition:background 1s ease; }
+.active:hover{text-decoration: none;background:gray;color:white;}
+
+/* changing color of code tag text  */
+code{color:#333;transition:color 1s ease;}
+
+/* setting property of each box */
+div.box{width: 180px;height: 180px;position: relative;display: inline-block;margin:10px;border-radius:50%;color: transparent;}
+
+/* doing text color transparent  */
+.color-1{color: transparent;}
+.color-2{color: transparent;}
+.color-3{color: transparent;}
+.color-4{color: transparent;}
+.color-5{color: transparent;}
+.color-6{color: transparent;}
+
