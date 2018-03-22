@@ -13,7 +13,7 @@ nav a:hover{text-decoration: none;background:gray;color:white;transition: backgr
 
 .active{text-decoration: none;background:gray;color:white;}
 .active:hover{text-decoration: none;background:gray;color:white;}
-div.box{width: 200px;height: 200px;position: relative;display: inline-block;margin:10px;border-radius: 50%;}
+div.box{width: 200px;height: 200px;position: relative;display:inline-block !important;margin:10px;border-radius: 50%;}
 
 
 
