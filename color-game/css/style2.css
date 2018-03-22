@@ -1,19 +1,59 @@
 
-body{font-family: Century Gothic;background:#ddd;} 
+body{
+  font-family: Century Gothic;
+  background:#ddd;
+} 
 
-div.display-color{width:100%;background-color:coral; padding:60px 0px;}
+div.display-color{
+  width:100%;
+  background-color:coral;
+  padding:60px 0px;}
 
-code{color:#333;}
+code{
+  color:#333;
+}
 
-nav{background: #f2f2f2;padding:10px;}
+nav{
+  background: #f2f2f2;
+  padding:10px;
+}
 
-nav a{color:#666;padding: 10px;position: relative;}
+nav a{
+  color:#666;
+  padding: 10px;
+  position: relative;
+}
 
-nav a:hover{text-decoration: none;background:gray;color:white;transition: background 1s ease;}
+nav a:hover{
+  text-decoration: none;
+  background:gray;
+  color:white;
+  transition: background 1s ease;
+}
 
-.active{text-decoration: none;background:gray;color:white;}
-.active:hover{text-decoration: none;background:gray;color:white;}
-div.box{width: 200px;height: 200px;position: relative;display:inline-block !important;margin:10px;border-radius: 50%;color:transparent;}
+.active{text-decoration: none;
+  background:gray;
+  color:white;
+}
+
+.active:hover{
+  text-decoration: none;
+  background:gray;
+  color:white;
+}
+
+div.box{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display:inline-block !important;
+  margin:10px;
+  border-radius: 50%;
+}
+
+#color-1,#color-2,#color-3{
+  color:transparent !important;
+}
 
 
 
