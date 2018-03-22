@@ -1,0 +1,320 @@
+ /* menu section css */
+		.menu-wrap{
+			background:#01bf86;
+			color:white;
+		}
+		
+		.inner-nav{margin-left:30px;
+		margin-right:10px;
+		}
+		
+		.nav-bar{
+			padding:15px 0;
+		}
+		
+		.custom-btn{
+			background:#01bf86 !important;
+		}
+		.right-nav{
+			float: right;
+		}
+
+		.right-nav li{
+			display: inline-block;
+			margin:auto 10px;
+			margin-top:0px;
+		}
+		
+		.left-nav li{
+			display: inline-block;
+			margin:auto 10px;
+			margin-top:3px;
+		}
+		
+		li.active{
+			color:white;
+			font-weight: bold;
+		}
+		
+		a{
+			color:#eee;
+		}
+		.btn-default{
+			color:#01bf86;
+			background: white;
+			border-radius: 20px;
+		}
+
+		
+
+		/* menu section end */
+		/* banner section css */
+		.banner-wrap{
+			background-color: #01bf86;
+		}
+		.banner{
+			padding:7em 0;padding-bottom: 15em !important;
+			color:white;
+		}
+
+		.display-4{
+			font-size: 2.2em;
+			font-weight: 400;
+		}
+
+		.banner-content{
+			color:#eee;
+		}
+/* banner content end */
+
+/* ultra clean heading section */
+
+		.bird{
+			position: relative;
+			top:-10px;
+			text-align: center;
+			width: 80px;
+		}
+
+		h1.sub-heading{
+			font-size: 1.7em;
+		}
+		.extra-content-padding{
+		padding:10px 30px;
+		line-height: 2.2;
+		}
+		.learn-more{
+			padding:7em 0!important;
+		}
+		
+
+/*ultra clean heading section end */
+
+/*Features content */
+		.feature-block{
+			background: #ddd;
+			padding:5.1em 0em 7.1em 0em;
+		}	
+
+		.features-sub-heading{
+			color:#aaa;
+		}
+/*Features content end */
+
+/* price list section */
+		.price-section{
+			background: #eee;
+			padding:7em 0;
+		}
+
+
+		.first-list{
+			border:1px solid lightgreen;
+			min-height: 400px;	
+			padding:50px 10px;
+		}
+
+		.ul-float li{
+			list-style: none;
+			line-height: 2;
+			margin-left: 50px;
+		}
+
+		.second-list{
+			border:1px solid lightgreen;
+			position: relative;
+			z-index: 0;
+			min-height: 400px;	
+			transform: scale(1.2);
+			padding:50px 10px;	
+		}
+
+		.third-list{
+			border:1px solid lightgreen;
+			min-height: 400px;	
+			padding:35px 10px;
+			;
+		}
+		.custom-btn{
+			background-color:#01bf86;color: white;border-radius: 20px;
+		}
+
+/* price list section end */
+
+/* testimonial section */
+
+		.testimonial{
+			background:#01bf86;
+			color:white;
+			padding:5em 0em;
+		}
+
+		.testimonial-heading{
+			font-size: 1.7em !important;
+		}
+
+		.testimonial-sub-heading{
+			font-size: .9em !important;
+		}
+
+		.client-icon-1,.client-icon-2,.client-icon-3{
+			width:200px;		
+		}
+
+		.client-icon-4{
+			width: 200px;
+		}
+		.thoughts-box{
+			position: relative;			
+			top:-20px;
+			z-index: 0;
+			width:350px;
+			height: 180px;
+		}
+
+		p.thoughts{
+			position: absolute;
+			z-index: 1;		
+			top:0px;
+			padding:10px 50px;
+			font-size: .9em;
+
+			color:green;
+		}
+		
+		.commenter-wrap{
+			position: relative;
+			left:10%;
+		}
+
+		.img-circle{
+			border-radius: 50%;
+			width:60px;
+			margin-right:10px;
+		}
+
+		.girl{
+			width:70px;
+		}
+
+
+/* testimonial section end */
+
+/* subscribe section */
+.subscribe-wrap{
+	background: #ddd;
+	padding:3em 0 4em 0;
+}
+
+.text-green{
+	color:#01bf86;
+}
+
+.btn-green{
+	border-radius: 20px;
+	color:white;
+	background: #01bf86;
+}
+
+
+/* subscribe section end */
+
+
+/* footer section */
+.footer-part{
+	background: #496174;
+	color:white;	
+	padding:3.5em 0 ;
+}
+
+ul {
+	list-style: none;	
+	padding-left:0px;	
+}
+
+ul li{
+	line-height: 2;
+}
+
+ 
+.about-ul li a,.social-ul li a,.support-ul li a,.contact-ul li{
+	color:#bbb;
+}
+
+
+
+
+/*CUSTOM STYLE */
+.block-heading
+{
+	font-size: 1.7em !important;
+}
+
+.block-sub-heading
+{
+	font-size: .9em !important;
+}
+
+
+
+/* responsive page section */
+
+@media screen and (max-width: 768px)
+{
+	/* nav section */	
+	.inner-nav{
+		margin:0;
+	}
+	.left-nav{
+		float: none;		
+	}
+
+	.left-nav li{
+		display: block;
+	}
+
+	.left-nav li a{
+		text-align: center;
+	}
+
+	.right-nav{display: block;float: none;}
+
+	.right-nav li{
+		display: block;
+		float: none !important;
+		text-align: center;
+	}
+
+
+	/* ultra and clean section heading and subheading */
+
+	h1.block-heading{
+		font-size: .5em;
+	}
+
+
+/*price section */
+	.second-list{
+		width:80%;
+		margin:auto;
+		transform:scale(1.0);
+		background:#01bf86;
+		color:white;
+	}
+
+
+	/* thoughts section  */
+
+		.thoughts-box{
+			width:100%;			
+		}
+
+		p.thoughts{
+			padding:0px 13px;
+		}
+
+		.comment-wrap{
+			width: 100%;
+			margin-bottom:50px;
+		}
+}
