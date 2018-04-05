@@ -1,0 +1,473 @@
+  /* body styling */
+body{
+	font-family: candara;	
+	box-sizing: border-box;
+}
+
+
+
+/* navbar open */
+.btn-signUp{
+	margin-left: 1.4em !important;
+}
+.btn-signUp,.btn-circle{
+	border-radius:20px !important;
+}
+
+.my-nav{
+	position:fixed;
+	z-index: 200;
+	background-color: transparent;
+	width: 100%;
+}
+
+
+/* navbar closed */
+
+/* banner open */
+.banner{
+	position:relative;
+	z-index:0;
+	top:0;	
+	height: 700px;
+	width: 100%;
+	padding-top:10%;	
+	-moz-background:url('d:/desktop data/HIWO/images/banner-bg.jpg');
+	-ms-background:url('d:/desktop data/HIWO/images/banner-bg.jpg');	
+	background:url('d:/desktop data/HIWO/images/banner-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.custom-form{
+	background-color:rgba(205,106,72,.7);	
+	padding:30px 25px;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+.form-btn{
+		background-color: #f24910;
+	}
+
+.circle-input{	
+	border-radius: 20px !important;
+	height: 50px !important;
+	padding: 10px 20px !important;
+}
+
+.banner-text{
+	position: relative;
+	top:26%;
+}
+
+.display-5{
+	font-size: 2.5em;
+	color:white;
+	font-family: candara;
+}
+
+.sub-heading{	
+	color: white;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 1.6em;
+}
+
+.btn-outline-white{
+	background:transparent;
+	border:2px solid white;
+	border-radius: 20px !important;
+}
+
+/* banner closed */
+
+
+
+/* info block */
+.info-block{
+	background:rgba(0,0,0,.8);	
+	color:white;
+	padding:20px 0;
+	width: 100%;
+	position:absolute;
+	bottom: 0;	
+}
+
+.info-text{
+	font-size:1.4em;
+	font-family:candara;
+}
+
+.login-btn{
+	background-color: #ed6639;
+}
+/* info block closed */
+
+/* find job open */
+
+.find-job-wrap{	
+	background:#7f909f;
+	color:white;
+	padding:40px 0;	
+	padding-bottom:60px;	
+	text-align: center;
+	position: relative;
+}
+
+
+.input-group>.input-group-prepend>.input-group-text{
+	border-top-left-radius: 15px !important;	    
+    border-bottom-left-radius: 15px !important;
+    background:transparent;    
+    border:2px solid #fff;
+	border-right: none;
+	color:white;
+}
+
+.input-group>.input-group-append>.find-job-btn{
+	    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+
+.btn-white{
+	background:white;
+	color:#111;
+	border-radius: 20px !important;	
+	font-family: candara;
+	font-weight: 800;
+	box-shadow: 0px 0px 22px #111;
+}
+
+.input-group > .input-outline{
+	background: transparent;	
+	border:2px solid #fff;
+	border-left:none;
+	border-right:none;
+}
+
+.input-group > .input-outline::placeholder{
+	color:#fff;
+}
+
+.find-job-btn{
+	background:#385b9f;	
+}
+
+
+
+/*	why join us open */
+.join-us{
+	font-family: candara;
+	padding:4% 0%;
+	padding-bottom: 7%;
+}
+
+.upper-left,.upper-right{
+	font-size: 1.2em;	
+}
+
+.upper-left,.lower-right{
+	color:orange;
+}
+
+.lower-left,.upper-right{
+	color:#444259;
+}
+.lower-left,.lower-right{
+	position: absolute;
+	font-size: 1.2em;
+	bottom: 0;
+}
+
+.joining-img{
+	width: 100%;
+	transform: scale(1.5);
+}
+/*	why join us closed  */
+
+/* about us open */
+.about-us{
+	background-color: #7f909f;
+	padding:5% 0;
+	padding-bottom: 2;
+}
+
+.about-man{
+	height: 380px;
+	transform: scale(1.6);
+	position: relative;
+	top:0%;
+	left:-20%;
+	float: right;
+}
+
+.about-fieldset{
+	color:white;
+	border:2px solid #fff;
+	padding:20px 20px;
+}
+
+.btn-about-fieldset{	
+	background-color:#7f909f;
+	position:absolute;
+	top:88%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border:2px solid #fff !important;
+	border-radius: 20px !important;
+}
+
+.about-text{
+	line-height: 1.5;
+}
+
+/* about us closed */
+
+
+
+/* Easy way to use block */
+.way-to-use{
+	padding:4% 0; 
+	text-align: center;
+}
+
+.way-to-use-heading{
+	color:#385b9f;
+	font-family: candara;
+	font-weight: bold;
+}
+
+.way-to-use-sub-heading{
+	margin-bottom: 1.4rem !important;
+}
+
+.step-icon{
+	margin-bottom:1rem !important;
+}
+
+
+.step-heading{	
+	color:#aaa;	
+}
+
+.step-sub-heading{
+	color:#385b9f;	
+}
+
+/* Easy way to use block end */
+
+
+/* Connecting to hiwo open */
+.connect-hiwo{
+	font-family: candara;
+	color:#eee;	
+}
+
+.connect-hiwo-left{
+	background-color:#ed6639;
+	padding:12%;
+	
+}
+
+.connect-hiwo-right{
+	background-color:#010c5a;
+}
+
+.join-us-btn{
+	border-radius: 25px !important;
+	background:black;
+	color:white;
+}
+
+#particles-js{
+  	width: 100%;  
+  	height: 100%;	
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	position:absolute;
+  	top: 0;
+  	left: 0;
+  	z-index:1;
+}
+/* Connecting to hiwo closed */
+
+/* hiwo features */
+.features-hiwo{
+	padding-top:5%;
+}
+
+.features-ul{
+	list-style: circle;	
+	color:#ed6639;
+}
+
+.features-ul-p{
+	color: #222;
+}
+.features-right-img{
+	width:100%;
+	
+
+}
+
+.features-heading{
+	color:#ed6639;
+}
+
+.features-sub-heading{
+	color:#aaa;
+}
+
+
+/* feature closed */
+
+.hiwo-users-activity{
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('d:/desktop data/hiwo/images/activity.jpg');
+	background-size: cover;
+	background-position: left;
+	padding:2% 0;
+	color:white;
+	font-family: candara;
+}
+
+i.user-activity-fa{
+	font-size:3.2em;
+	text-align: right !important;
+}
+
+/* hiwo features closed */
+
+/* testimonial open */
+.testimonial{
+	padding:5% 0;
+}
+
+.comment-wrap{	
+	padding:5%;
+	border:2px solid #aaa;
+}
+
+.comment-wrap:after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #aaa;
+	position: relative;
+	top: 60px;
+}
+
+.testimonial-people-img{
+	width:100px;
+}
+/* testimonial closed */
+
+
+/* hiwo clients */
+.clients{
+	background:linear-gradient(rgba(158,75,51,.7),rgba(158,75,51,.7)), url('d:/desktop data/hiwo/images/clients-bg.jpg');
+	background-size: cover;
+	background-position:center;
+	color:white;
+	padding:2% 0 1% 0;	
+	margin-bottom: 0;
+}
+
+.client-height{
+	height: 70%;
+	width: 50%;
+}
+/* hiwo clients closed */
+
+/* hiwo app open */
+.hiwo-app{
+	padding:4% 0 0 0;
+
+}
+
+.hiwo-app-text{
+	padding:5% 0 0 0;
+}
+
+.hiwo-app-store{
+	width: 100%;
+}
+
+.hiwo-app-icon{
+	width: 100%;
+}
+/* hiwo app closed */
+
+
+/* hiwo services open */
+.hiwo-services{
+	padding-top: 2%;
+	font-family: candara;
+	box-shadow:0px -10px 22px -10px #333,0px 10px 22px -10px #222;
+}
+
+.services-img-sm{
+	width: 100%;
+}
+
+/* hiwo services closed */
+
+/* hiwo footer */
+.hiwo-footer{
+	font-family: candara;
+	padding:5% 0;
+	background:rgba(69,69,69,.7);
+	color:white;
+}
+
+.footer-hr{
+width:50px;
+background:#ed6639;
+height: 4px;
+float: left;
+}
+
+.footer-ul{
+	padding-left: 0px;	
+	list-style: none;
+	font-weight: bold;
+}
+
+.tweet-ul{
+	list-style:url('d:/desktop data/hiwo/images/tweet-bird.png');	
+	list-style-position: all;
+	padding-left: 0;
+}
+.tweet-ul li h5.tweet{
+	margin-bottom:0;
+}
+
+.tweet-time{
+	color:#ed6639;
+}
+.subscribe-btn{
+	background:#ed6639;
+	
+}
+
+.input-group>.input-group-append>.subscribe-btn{
+	border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+/* hiwo footer closed*/
+
+/* copyright open */
+
+.copyright-block{
+	background:#7f909f;
+	font-family: candara;	
+	padding: 1% 0;
+
+}
+
+/* copyright closed 
