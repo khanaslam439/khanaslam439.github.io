@@ -1,0 +1,418 @@
+@media screen and (max-width: 768px)
+{
+	/* navbar section */
+	.navbar-toggler{
+		background:white;
+	}
+
+	.navbar-dark .navbar-toggler{
+		border:none;
+	}
+
+	.navbar-dark .navbar-toggler:focus{
+		border: none;
+	}
+
+	.btn-signUp{
+		margin-left: 0 !important;
+	}
+
+	/* banner section */
+	.banner{		
+		padding:20% 0% 0% 0% !important;
+
+	}
+
+	.form-heading-sm{
+		font-size: 1rem;
+	}
+
+	.form-input-sm{
+		width: 100%;
+		padding:4px 12px !important;
+	}
+
+	.form-section{		
+		padding:0 !important;
+	}
+
+	.custom-form{
+		margin: 0;
+		position: relative;
+}
+
+	.circle-input{	
+		border-radius: 20px !important;
+		font-size: .9em !important;
+		height:20px !important;
+		padding: 15px 20px !important;
+}
+
+	select.circle-input{
+		padding:0px 15px !important;
+		height:30px !important;
+}
+
+	.form-btn{
+		width: 100%;
+	}
+
+	.banner-text{
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		overflow: auto;
+	}
+
+	
+	/* banner inner info-block */
+
+	.info-block{		
+		position: absolute;
+		bottom: 0;
+		width: 100% !important;
+		overflow: auto;		
+	}
+
+	.info-text{
+		text-align: center !important;
+		margin-bottom:1.2em;
+		font-size: 1em;
+	}
+
+	.login-btn{
+		width: 60%;
+	}
+
+	/* font job block */
+	.find-job-heading{
+		font-size:1.3em;
+	}
+
+	.find-job-sub-heading{
+		font-size: 1em;
+	}
+
+	div.input-group input[type="text"]{
+		font-size:.8em !important;
+	}
+
+	.input-group>.input-group-append>.find-job-btn{
+		font-size: .8rem;
+	}
+
+	.btn-white{
+		font-size: .7em !important;
+	}
+
+	/* join us block */
+	
+	.join-us *{
+		text-align: center
+	}
+
+	.btn-about-fieldset{
+		position: absolute;
+		top: 100%;
+	}
+
+	.lower-left,.lower-right,.upper-left,.upper-right{
+		font-size: .776rem;
+	}
+
+	.lower-left,.lower-right{
+		position: relative !important;		
+	}
+
+	.join-us-title{
+		font-size:1.3rem;
+	}
+
+	.join-us-sub-title{
+		font-size: 1rem;
+	}
+
+
+	.joining-img{
+		transform: scale(1.0) !important;
+	}
+
+	
+	/* about us block */	
+
+	.hidden-at-sm{
+		display:none;
+	}
+
+	.about-us{
+		padding: 0 !important;
+		padding-bottom:15% !important; 
+	}
+
+	.about-fieldset{
+		padding:5px 10px;
+	}
+
+	.about-text{
+		font-size: .9rem;
+	}
+
+	.about-man{
+		height: 300px;
+		transform: scale(1.0);		
+		position: relative;
+		left:5%;
+		float: none;	
+	}
+
+	h2.about-heading{
+		text-align: center !important;
+		
+	}
+
+
+	/* easy way to use */
+	.way-to-use-heading{
+		font-size: 1.3rem;
+	}
+
+	.way-to-use-sub-heading{
+		font-size: .8rem;
+	}
+
+	.step-icon{
+		width: 100px;
+		margin-bottom: .9rem;
+	}
+
+	.step-heading{
+		font-size: .9rem;		
+	}
+
+	.step-sub-heading{		
+		font-size: 1.1rem;		
+	}
+
+	.step-border-sm{
+		border-bottom:2rem solid transparent;
+	}
+
+	/* Connecting to hiwo */
+
+	.join-us-btn{
+		width: 60%;
+		font-size: .9rem !important;
+	}
+
+	
+	.connect-hiwo-title{
+		font-size: 1.3rem;
+	}
+
+
+	.connect-hiwo-sub-title{
+		font-size: 1rem;
+	}
+
+	.join-us-btn:hover{
+		background:#010c5a;
+		color:white;
+		transition: all .2s ease;
+	}
+
+
+
+	/* features hiwo */
+
+	.features-right-img{		
+		transform: scale(0.9) !important;
+
+	}
+
+	.features-heading{
+		font-size: 1.3rem;
+		text-align: center;
+		margin: 0;
+	}
+
+	.features-sub-heading{
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.features-text{
+		font-size: .9rem;
+	}
+
+	.features-ul{
+		font-size:.9rem;
+		line-height: .6;
+	}
+
+	/* hiwo activity */
+	.hiwo-users-activity{
+		text-align: center !important;
+	}
+
+	.comment-block-sm,.member-join-sm,.projects-sm,.fb-follower{
+		border-bottom:2em solid transparent;
+	}
+
+	i.user-activity-fa{		
+		text-align:center !important;
+		font-size: 1.3rem;
+	}
+
+	.activity-info{
+		font-size: .9em;
+	}
+
+	/* testimonial block */
+	.testimonial{
+		padding:10% 0% !important;
+	}
+	.testimonial-title{
+		font-size: 1.3rem;
+	}
+
+	.testimonial-sub-title{
+		font-size: 1rem;
+	}
+
+	.comment-wrap{
+		border-radius: 4px;
+		padding:1% 2%;
+		padding-top:3%;
+		font-size: .8rem;
+	}
+
+	.comment-wrap:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #aaa;
+    position: relative;
+    top: 35px;
+	}
+
+	.client-name{
+		font-size: .9rem;
+	}
+
+	.client-post{
+		font-size: .9rem;
+	}
+
+	.testimonial-people-img{
+		width:70px;
+	}
+
+	.comment-1{
+		border-bottom:2rem solid transparent;
+	}
+
+
+	
+
+
+	/* HIWO APP STORE BUTTONS */
+
+	.hiwo-app-title{
+		font-size: 1.3rem !important;
+	}
+
+	.hiwo-app-sub-title{
+		font-size: 1rem !important;
+		margin-bottom: 1rem;
+	}
+
+	.hiwo-app{
+		text-align: center;
+	}
+
+	.hiwo-app-store{
+		width: 100px;
+		margin-bottom:1em;
+	}
+
+	.hiwo-app-icon{
+		width: 200px;
+	}
+	/* hiwo services */
+
+	.hiwo-services{
+		padding-top: 10%;
+		text-align: center;
+	}
+
+	.service-wrap-sm{
+		border-bottom:3rem solid transparent;
+	}
+
+	.services-img-sm{		
+		display: block;
+		width: 50px;		
+		margin:auto;
+	}
+
+	.service-title{
+		font-size: 1rem;		
+	}
+
+	.service-info{
+		font-size: .8rem;
+	}
+
+	/* footer section */
+
+	.hiwo-footer{
+		padding:10px 30px !important; 
+		
+	}
+
+	.footer-hr{
+		text-align: center;		
+		margin-top:2px;
+		
+	}
+
+	.footer-ul{
+		display: inline-block;		
+	}
+		
+	.footer-title{
+		font-size: 1.3rem;
+	}
+
+	.footer-ul li{
+		font-size: .8em;
+	}
+
+	.tweet{
+		font-size: .8em;
+	}
+
+	.tweet-time{
+		font-size: .789em;
+	}
+
+	.newsletter-title{
+		font-size: 1.3rem;
+	}
+
+	.custom-border input[type="text"]{
+		font-size:.7em !important;
+		padding-left: 0px;
+	}
+
+	.subscribe-btn{
+		font-size: .8em !important;
+	}
+
+	.copyright-text-sm{
+		font-size: 1em;
+		text-align: center;
+	}
+}
