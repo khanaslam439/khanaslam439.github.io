@@ -31,10 +31,8 @@ body{
 	top:0;	
 	height: 700px;
 	width: 100%;
-	padding-top:10%;	
-	-moz-background:url('d:/desktop data/HIWO/images/banner-bg.jpg');
-	-ms-background:url('d:/desktop data/HIWO/images/banner-bg.jpg');	
-	background:url('d:/desktop data/HIWO/images/banner-bg.jpg');
+	padding-top:10%;		
+	background:url('images/banner-bg.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -325,7 +323,7 @@ body{
 /* feature closed */
 
 .hiwo-users-activity{
-	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('d:/desktop data/hiwo/images/activity.jpg');
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('images/activity.jpg');
 	background-size: cover;
 	background-position: left;
 	padding:2% 0;
@@ -369,7 +367,7 @@ i.user-activity-fa{
 
 /* hiwo clients */
 .clients{
-	background:linear-gradient(rgba(158,75,51,.7),rgba(158,75,51,.7)), url('d:/desktop data/hiwo/images/clients-bg.jpg');
+	background:linear-gradient(rgba(158,75,51,.7),rgba(158,75,51,.7)), url('images/clients-bg.jpg');
 	background-size: cover;
 	background-position:center;
 	color:white;
@@ -438,7 +436,7 @@ float: left;
 }
 
 .tweet-ul{
-	list-style:url('d:/desktop data/hiwo/images/tweet-bird.png');	
+	list-style:url('images/tweet-bird.png');	
 	list-style-position: all;
 	padding-left: 0;
 }
