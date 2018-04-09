@@ -1,8 +1,13 @@
 <!doctype html>
 <html>
 	<head>
+		
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
+		<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> -->
 
 		<!-- font awesome cdn -->
 	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +22,7 @@
 			<div class="row">				
 				<div class="col-lg-6 text-left">
 					<br>
-					<h1 class="display-4 logo-text mb-0">ART CONCLAVE</h1>
+					<h1 class="display-4 logo-text mb-0">ARTS CONCLAVE</h1>
 					<h3 class="text-warning">Workshop - Conference - Exhibition</h3>					
 					<br>
 				</div>
@@ -32,30 +37,42 @@
 			<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-menu">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="nav-menu">
 				<ul class="navbar-nav">
+					<li class="nav-item  mr-3">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
 					<li class="nav-item active mr-3">
-						<a class="nav-link">Home</a>
+						<a class="nav-link" href="about.html">About Us</a>
 					</li>
 					<li class="nav-item mr-3">
-						<a class="nav-link">Exhibition</a>
+						<a class="nav-link" href="#">Exhibition</a>
 					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link">Vistors</a>
+					<li class="nav-item mr-3 dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Vistior		          
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">          
+				          <a class="dropdown-item" href="visitor-profile.html">Visitor Profile</a>
+				          <a class="dropdown-item" href="visitor-regd.html">Visitor Registration</a>		       
+				       </div>
 					</li>
 
-					<li class="nav-item mr-3 dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Conference
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">		          
-		          <a class="dropdown-item" href="#">Speakers</a>
-		          <a class="dropdown-item" href="#">Delegate Registration</a>		          
-		        </div>
-		      </li>
+					<li class="nav-item mr-3 dropdown active">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Conference
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">          
+				          <a class="dropdown-item" href="speakers.html">Speakers</a>
+				          <a class="dropdown-item" href="delegate-regd.html">Delegate Registration</a>		       
+				       </div>
+				    </li>
+				    <li class="nav-item mr-3">
+						<a class="nav-link" href="spons-opportunity.html">Sponsers</a>
+					</li>
+
 					<li class="nav-item mr-3">
-						<a class="nav-link" href="#contact-id">Contact Us</a>
+						<a class="nav-link" href="index.html#contact-id">Contact Us</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto">
@@ -313,6 +330,11 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<!-- 
+	<script  src="bootstrap/js/jquery.min.js"></script>
+
+	<script  src="bootstrap/js/bootstrap.min.js"></script> -->
 
 	</body>
 </html>
