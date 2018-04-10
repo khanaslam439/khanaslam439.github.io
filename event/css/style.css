@@ -7,7 +7,7 @@ body{
 }
 
 .banner{
-	background:linear-gradient(rgba(0,0,11,.5),rgba(0,0,211,.4)), url('c:/users/aslam/desktop/arts/images/banner-img.jpg');
+	background:linear-gradient(rgba(0,0,11,.5),rgba(0,0,211,.4)), url('images/banner-img.jpg');
 	background-size: cover;
 	width: 100%;
 	height: 620px;
@@ -26,7 +26,7 @@ body{
 }
 
 .about-img{
-	background: url(c:/users/aslam/desktop/arts/images/about.png);
+	background: url(images/about.png);
 	width: 100%;
 }
 
@@ -88,7 +88,7 @@ body{
 
 
 .right-contact{
-	background:linear-gradient(rgba(0,255,255,.5), rgba(0,255,255,.5)), url("c:/users/aslam/desktop/arts/images/contact.jpg");	
+	background:linear-gradient(rgba(0,255,255,.5), rgba(0,255,255,.5)), url("images/contact.jpg");	
 	background-size: cover;
 	background-position: center;
 	padding:10% !important;
@@ -132,7 +132,7 @@ body{
 		}
 
 		.instagram{
-			background:rgba(255,0,0,.5);			
+			background:rgba(255,0,0,0.3);			
 			color: white;	
 			text-align: center;
 			font-size: 2em;		
