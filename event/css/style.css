@@ -94,3 +94,46 @@ body{
 	padding:10% !important;
 	color:white;
 }
+
+.social-media{
+	width:300px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.date-area{
+	position: relative;
+	top:60%;
+}
+
+.social-media .col{
+	padding:10px 5px;
+	color:white;
+
+}
+
+.social-media .col .fa{
+	color:white;
+}
+		
+		.facebook{
+			background-color: royalblue;
+			text-align: center;
+			font-size: 2em;
+			
+		}
+
+		.twitter{
+			background:deepskyblue;
+			color:white;
+			text-align: center;
+			font-size: 2em;
+		}
+
+		.instagram{
+			background:rgba(255,0,0,.5);			
+			color: white;	
+			text-align: center;
+			font-size: 2em;		
+		}
