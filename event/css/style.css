@@ -132,7 +132,7 @@ body{
 		}
 
 		.instagram{
-			background:rgba(255,0,0,0.3);			
+			background-image: linear-gradient(to top right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 			color: white;	
 			text-align: center;
 			font-size: 2em;		
