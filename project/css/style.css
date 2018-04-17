@@ -3,10 +3,164 @@
 .sub-text{ font-size: 1.356em; font-weight: lighter;}
 .hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
 .second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
 .mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
 .lead-gen{ padding:10% 0% 10% 0%;}
 .advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
 .advt i.fa{ font-size: 2em;    position: relative; top:30%; }
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+}.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }.bold-text{ font-weight: bolder; font-family: candara;}
+.first-layer{  background:linear-gradient(rgba(0,11,55,.8),rgba(0,11,55,.8)), url('https://khanaslam439.github.io/project/images/first-bg.jpg'); background-size:cover; background-position: top; height: 100%; color:white; padding:12% 0% 18% 0%; width: 100%; background-color: #aaa;}
+.sub-text{ font-size: 1.356em; font-weight: lighter;}
+.hr-bottom{ margin-top:0; height: 3px; width: 50px; background:black; display: inline-block; }
+.second-layer{ padding: 8% 0% 13% 0%; background-color: #f2f2f2;}
+.mobile-app{ padding:7% 0% 2% 0%; background: linear-gradient(to right,rgba(255,255,255,.9),rgba(0,0,244,.7)), url("https://khanaslam439.github.io/project/images/mobile-bg.jpg"); background-size: cover;}
+.lead-gen{ padding:10% 0% 10% 0%;}
+.advt{ width: 80px; height: 80px; background:#eee; display: inline-block;   border-radius: 50%;}
+.advt i.fa{ font-size: 2em;    position: relative; top:30%; }
+.ad-format{ padding: 8% 2%;
+}
+.ad-format p{ font-size: .9em;}
+.ad-format h4{ font-size: 1.2em;}
+.hover-lay{ max-height: 250px; padding-top: 20px;}
+.hover-lay:nth-child(odd){ border:1px solid #eee;}
+.hover-lay:nth-child(even){ background-color: #eee;}.hover-lay:hover{ background: #444; color:white; padding:2%; transition:all 1s ease;}
+.hover-lay:hover i.fa{ color: black;}
+.we-do{ padding: 13%; background: linear-gradient(rgba(255,255,255,.9),rgba(0,0,255,.5),rgba(0,255,255,.5),rgba(255,255,255,.9)),url(https://khanaslam439.github.io/project/images/we-do.jpg); background-size: cover; color:white; text-align: center; }
+.we-do img{ width: 100px;}
+.opportunity{ padding:10%; background:linear-gradient(rgba(0,0,255,.8),rgba(0,0,255,.2)),url(https://khanaslam439.github.io/project/images/opp.jpg); background-size: cover; color: white;}
+.opportunity-text{ line-height: 1.7; font-weight: lighter; font-size: 1.4em;}
+.custom-jumbo{ background: #eee; }
+
 .ad-format{ padding: 8% 2%;
 }
 .ad-format p{ font-size: .9em;}
