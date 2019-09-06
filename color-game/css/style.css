@@ -1,7 +1,7 @@
 body{font-family: Century Gothic;background:#ddd;}
 
 /* formatting of rgb display box  */
-div.display-color{width:100%;background-color:coral;padding:25px 0px;transition:background-color 1s ease;}
+div.display-color{width:100%;background-color:rgb(35, 172, 78);padding:25px 0px;transition:background-color 1s ease;}
 
 /* basic navbar formattings */
 nav{background: #f2f2f2;padding:12px;}
