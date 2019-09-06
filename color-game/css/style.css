@@ -17,7 +17,7 @@ nav a:hover .active{background:transparent;color:#666;padding: 14px;position:rel
 code{color:#333;transition:color 1s ease;}
 
 /* setting property of each box */
-div.box{width: 180px;height: 180px;position: relative;display: inline-block;margin:10px;border-radius:50%;color: transparent;}
+div.box{width: 180px;height: 180px;position: relative;display: inline-block;margin:10px;color: transparent;}
 
 /* doing text color transparent  */
 .color-1{color: transparent;}
