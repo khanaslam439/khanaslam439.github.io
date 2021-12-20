@@ -1,8 +1,8 @@
 RewriteEngine on
     #for app in subdirectory
-    RewriteBase /admin/
+    RewriteBase /prographer/
     RewriteRule ^index\.html$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-l
-    RewriteRule ^.*prographer/.* /prographer/index.html [L]
+    RewriteRule ^.*prographer/.* /index.html [L]
